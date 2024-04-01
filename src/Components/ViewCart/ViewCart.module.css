@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    cursor: default;
+}
+
+.navbar {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100vw;
+    height: 5vh;
+    background: #2E0052;
+}
+
+.phonecallicon {
+    margin-left: 2vw;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.6vh;
+}
+
+.phoneno {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: white;
+    margin-top: 1.1vh;
+    margin-left: 1vw;
+}
+
+.off {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: white;
+    margin-top: 1.1vh;
+    margin-left: 25vw;
+}
+
+.line {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+    margin-top: 0.5vh;
+    margin-left: 1vw;
+}
+
+.shopnow {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: white;
+    margin-top: 1.1vh;
+    margin-left: 1vw;
+}
+
+.logout {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+    margin-top: 0.9vh;
+    margin-left: 38.5vw;
+}
+
+.title {
+    margin-top: 2.5vh;
+    margin-left: 4.7vw;
+    display: flex;
+}
+
+.musicartlogo {
+    width: 2rem;
+    height: 2rem;
+}
+
+.musicart {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0em;
+    color: #2E0052;
+    margin-top: 0.4vh;
+    margin-left: 0.3vw;
+}
+
+.home {
+    margin-left: 1vw;
+    margin-top: 1.8vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 450;
+    color: #000000;
+}
+
+.cart {
+    margin-left: 62.7vw;
+    margin-top: 0.5vh;
+    border-radius: 2.5rem;
+    width: 10vw;
+    height: 5vh;
+    background: #1D7000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    display: flex;
+}
+
+.whitecart {
+    margin-left: 1vw;
+    margin-top: 1.1vh;
+    width: 1.1rem;
+    height: 1rem;
+}
+
+.viewcart {
+    margin-left: 0.5vw;
+    margin-top: 1.1vh;
+}
+
+.back {
+    margin-top: 3vh;
+    margin-left: 4.7vw;
+    border-radius: 0.4rem;
+    width: 11vw;
+    height: 3vh;
+    text-align: center;
+    padding-top: 0.8vh;
+    padding-bottom: 0.8vh;
+    background: #2E0052;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.display {
+    margin-top: 2vh;
+    margin-left: 45vw;
+    display: flex;
+}
+
+.bag {
+    width: 2rem;
+    height: 2rem;
+}
+
+.mycart {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #000000;
+    margin-left: 1vw;
+    margin-top: 0.5vh;
+}
+
+.firsthorizontalline {
+    margin-left: 5vw;
+    margin-top: 1vh;
+    border: 0.12rem solid #E1E1E1;
+    width: 70vw;
+    height: 0vh;
+}
+
+.pricedetails {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000000;
+}
+
+.mrp {
+    margin-left: 77.3vw;
+    margin-top: 1vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #000000;
+}
+
+.placeorder {
+    margin-left: 77.3vw;
+    margin-top: 4vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000000;
+    background: #FFD600;
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 4.78vw;
+    padding-right: 4.78vw;
+    width: 10vw;
+    height: 4vh;
+    border-radius: 0.5rem;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0vh;
+    width: 100vw;
+    height: 4vh;
+    background: #2E0052;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 1vh;
+}

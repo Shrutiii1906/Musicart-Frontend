@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    cursor: default;
+}
+
+@media (min-width: 361px) {
+
+    .musicartlogo {
+        position: absolute;
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        top: 4vh;
+        left: 44vw;
+    }
+
+    .img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .musicart {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 0em;
+        color: #2E0052;
+        margin-top: 1vh;
+    }
+
+    .container {
+        position: absolute;
+        top: 15vh;
+        left: 37vw;
+        width: 26vw;
+        height: fit-content;
+        border-radius: 1.3rem;
+        border: 0.18rem solid #D9D9D9;
+    }
+
+    .containertitle {
+        margin-top: 2.5vh;
+        margin-left: 2vw;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 450;
+        letter-spacing: 0em;
+        color: black;
+    }
+
+    .yourname {
+        margin-left: 2vw;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 500;
+        letter-spacing: 0em;
+        color: black;
+        margin-top: 1.5vh;
+    }
+
+    .demo {
+        border-radius: 0.5rem;
+        border: 0.125rem solid #B6B6B6;
+        padding-left: 0.5vw;
+        outline: none;
+        width: 21vw;
+        height: 4vh;
+        margin-left: 2vw;
+        margin-top: 1vh;
+    }
+
+    .dem {
+        border-radius: 0.5rem;
+        border: 0.125rem solid #B6B6B6;
+        padding-left: 0.5vw;
+        outline: none;
+        width: 21vw;
+        height: 4vh;
+        margin-left: 2vw;
+        margin-top: 1vh;
+    }
+
+    .continue {
+        margin-left: 2vw;
+        margin-top: 2.5vh;
+        border-radius: 0.5rem;
+        background: #2E0052;
+        text-align: center;
+        width: 21.8vw;
+        height: 4vh;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 500;
+        letter-spacing: 0em;
+        color: white;
+        padding-top: 1vh;
+    }
+
+    .agree {
+        margin-top: 2.3vh;
+        margin-left: 2vw;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.6rem;
+        font-weight: 500;
+        letter-spacing: 0em;
+        color: #000000;
+        width: 21vw;
+        height: fit-content;
+        padding-bottom: 3vh;
+    }
+
+    .new {
+        position: absolute;
+        top: 70vh;
+        left: 37vw;
+        display: flex;
+    }
+
+    .line {
+        width: 6.5vw;
+        height: 0vh;
+        border: 0.05rem solid #BDBDBD;
+    }
+
+    .newmusicart {
+        padding-left: 2vw;
+        padding-right: 2vw;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 0em;
+        color: #000000;
+        margin-top: -1.4vh;
+    }
+
+    .acc {
+        position: absolute;
+        top: 80vh;
+        left: 37vw;
+        width: fit-content;
+        height: fit-content;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        border-radius: 0.5rem;
+        border: 0.125rem solid #BDBDBD;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 400;
+        letter-spacing: 0em;
+        color: #000000;
+    }
+
+    .bottom {
+        position: absolute;
+        bottom: 0vh;
+        width: 100vw;
+        height: 5vh;
+        background: #2E0052;
+        color: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.85rem;
+        font-weight: 500;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-top: 2vh;
+    }
+
+    .showerror {
+        width: fit-content;
+        height: fit-content;
+        font-family: 'Inter', sans-serif;
+        font-size: 0.7rem;
+        font-weight: 500;
+        letter-spacing: 0em;
+        margin-left: 2vw;
+        color: #FF0000;
+    }
+
+    .dot,
+    .already,
+    .welcome {
+        display: none;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    .signupbgimg {
+        position: absolute;
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        top: 1.2vh;
+        left: 4vw;
+    }
+
+    .navbar {
+        position: absolute;
+        width: 100vw;
+        height: 7vh;
+        background: #2E0052;
+    }
+
+    .img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .musicart {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 0em;
+        color: white;
+        margin-top: 0.6vh;
+        margin-left: 1vw;
+    }
+
+    .welcome {
+        position: absolute;
+        top: 10vh;
+        left: 3vw;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #2E0052;
+    }
+
+    .container {
+        position: absolute;
+        top: 18vh;
+        left: 3vw;
+        width: 93vw;
+        height: fit-content;
+        border-radius: 0.3rem;
+        border: 0.125rem solid #D0D0D0;
+    }
+
+    .containertitle {
+        margin-top: 2.5vh;
+        margin-left: 2vw;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: 450;
+        letter-spacing: 0em;
+        color: black;
+    }
+
+    .dot {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: 450;
+        letter-spacing: 0em;
+        color: black;
+        margin-top: 2.5vh;
+    }
+
+    .already {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 300;
+        letter-spacing: 0em;
+        color: black;
+        margin-top: 3.1vh;
+        margin-left: 1vw;
+    }
+
+    .yourname {
+        margin-left: 2vw;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 500;
+        letter-spacing: 0em;
+        color: black;
+        margin-top: 1.5vh;
+    }
+
+    .demo {
+        border-radius: 0.25rem;
+        border: 0.065rem solid #B6B6B6;
+        padding-left: 2vw;
+        outline: none;
+        width: 84vw;
+        height: 5vh;
+        margin-left: 2vw;
+        margin-top: 1vh;
+    }
+
+    .dem {
+        border-radius: 0.25rem;
+        border: 0.065rem solid #B6B6B6;
+        padding-left: 2vw;
+        outline: none;
+        width: 84vw;
+        height: 5vh;
+        margin-left: 2vw;
+        margin-top: 1vh;
+    }
+
+    .continue {
+        margin-left: 2vw;
+        margin-top: 2.5vh;
+        border-radius: 0.5rem;
+        background: #2E0052;
+        text-align: center;
+        width: 88vw;
+        height: 4.5vh;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 500;
+        letter-spacing: 0em;
+        color: white;
+        padding-top: 1.5vh;
+    }
+
+    .agree {
+        margin-top: 2.3vh;
+        margin-left: 2vw;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.7rem;
+        font-weight: 450;
+        letter-spacing: 0em;
+        color: #000000;
+        width: 88vw;
+        height: fit-content;
+        padding-bottom: 3vh;
+    }
+
+    .new {
+        position: absolute;
+        top: 72vh;
+        left: 3vw;
+        display: flex;
+    }
+
+    .line {
+        width: 32.2vw;
+        height: 0vh;
+        border: 0.01rem solid #BDBDBD;
+    }
+
+    .newmusicart {
+        padding-left: 2vw;
+        padding-right: 2vw;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.7rem;
+        font-weight: 450;
+        letter-spacing: 0em;
+        color: #000000;
+        margin-top: -1.3vh;
+    }
+
+    .acc {
+        position: absolute;
+        top: 77vh;
+        left: 3vw;
+        width: fit-content;
+        height: fit-content;
+        padding-left: 23vw;
+        padding-right: 23vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        border-radius: 0.5rem;
+        border: 0.125rem solid #BDBDBD;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 450;
+        letter-spacing: 0em;
+        color: #000000;
+    }
+
+    .bottom {
+        position: absolute;
+        bottom: 0vh;
+        width: 100vw;
+        height: 5vh;
+        background: #2E0052;
+        color: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.85rem;
+        font-weight: 500;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-top: 2vh;
+    }
+
+    .showerror {
+        width: fit-content;
+        height: fit-content;
+        font-family: 'Inter', sans-serif;
+        font-size: 0.7rem;
+        font-weight: 500;
+        letter-spacing: 0em;
+        margin-left: 2vw;
+        color: #FF0000;
+    }
+
+}
